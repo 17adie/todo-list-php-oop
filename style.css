@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+}
+
+* .container {
+  margin: 20px;
+  position: absolute;
+  width: 720px;
+  height: 502px;
+  background: #FFFFFF;
+  border: 1px solid rgba(25, 59, 101, 0.08);
+  -webkit-box-shadow: 0px 0px 4px rgba(25, 59, 101, 0.05);
+          box-shadow: 0px 0px 4px rgba(25, 59, 101, 0.05);
+  border-radius: 12px;
+}
+
+* .container .header-text {
+  padding: 15px;
+  width: 88px;
+  height: 29px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #193B65;
+}
+
+* .container .header-btm-border {
+  position: absolute;
+  width: 720px;
+  height: 0px;
+  opacity: 0.1;
+  border: 1px solid #193B65;
+}
+
+* .container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+* .container .form input, * .container .form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 40px;
+}
+
+* .container .form .inp {
+  width: 316px;
+  height: 53px;
+  text-indent: 10px;
+  background: #FBFCFF;
+  border: 1px solid #D6DEEB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+}
+
+* .container .form .form-control {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* .container .settings-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container .settings-collapse .text-muted {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 140px;
+  height: 29px;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 29px;
+  /* identical to box height, or 181% */
+  color: #193B65;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+* .container .settings-collapse .arrow {
+  padding-right: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  /* identical to box height, or 181% */
+  color: #193B65;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
