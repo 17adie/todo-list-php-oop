@@ -22,9 +22,9 @@
             <input class="form-control" type="text" name="item" placeholder="Insert new task..">
           </div>
           <div class="col-md">
-            <a class="btn btn-success btn-sm" type="submit" data-toggle="tooltip" title="Add Task">
-              <span class='material-symbols-outlined'>add</span>
-            </a>
+            <button class="btn btn-success" type="submit" value="Add Task">
+            <span class='material-symbols-outlined'>add</span>
+            </button>
           </div>
         </div>
       </form>
